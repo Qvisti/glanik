@@ -76,3 +76,24 @@ section{
 .button:hover{
     background: #a0d826;
 }
+.moving-planet{
+    background:
+        url(img/moving-planet.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 230px;
+    transform: rotate(-15deg);
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+@keyframes planet-move{
+    from{transform: translateY(0px);}
+    to {transform: translateY(70px);}
+}
+.moving-planet{
+    animation-name: planet-move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
