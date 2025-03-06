@@ -10,9 +10,6 @@ menu.addEventListener('click', function(event){
    }
 });
 let classLink = '.main-link';
-window.onscroll = function(){
-    let h = document.dispatchEvent.clientHeight;
-};
 
 window.onscroll = function() {
     let h = document.documentElement.clientHeight;
@@ -39,5 +36,4 @@ window.onscroll = function() {
         activeBtn.classList.remove('active')
     };
 };
-
 
