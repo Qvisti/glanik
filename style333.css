@@ -471,6 +471,7 @@ nav {
 @media (max-width: 1000px) {
     .mobile-button {
         display: block;
+        z-index: 1;
     }
 }
 .mobile-menu{
