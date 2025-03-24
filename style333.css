@@ -281,13 +281,19 @@ section {
     width: 327px;
     height: 161px;
     text-align: center;
-
 }
 
 .comment p {
     font-family: Comfortaa;
     font-size: 20px;
     max-width: 250px;
+}
+
+.comment-text{
+    margin-left: 30px;
+}
+.comment-text1{
+    margin-left: 30px;
 }
 
 footer {
